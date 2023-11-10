@@ -1,10 +1,9 @@
-import text_to_speech as TTS
+import text_to_speech as tts
 
-TTS_Engine = TTS.setup_tts()
-
+speak = "Hello there, how are you?"
 
 def main():
-    TTS.talk("Hello, How are you?", TTS_Engine)
+    tts.speak(speak)
 
 
 main()
