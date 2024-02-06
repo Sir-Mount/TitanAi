@@ -1,7 +1,7 @@
-import pyttsx3
+import pyttsx4
 
 def setup_tts():
-    engine = pyttsx3.init()
+    engine = pyttsx4.init()
 
     voices = engine.getProperty('voices')
     # noinspection PyUnresolvedReferences
